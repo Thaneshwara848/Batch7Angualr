@@ -1,0 +1,13 @@
+
+div{
+    width: 50%;
+    height: 100px;
+}
+
+.bdr{
+    border: 5px solid red;
+}
+
+.backgclr{
+    background-color: pink;
+}

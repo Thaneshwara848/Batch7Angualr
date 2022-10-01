@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AComponent } from './a/a.component';
 import { BComponent } from './b/b.component';
 import { DatabinddemoComponent } from './databinddemo/databinddemo.component';
+import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
@@ -15,7 +16,8 @@ const routes: Routes = [
 { path : 'bcomp', component : BComponent},
 { path : 'home',component :HomeComponent},
 { path :'data',component:DatabinddemoComponent},
-{path :'pipe',component:PipedemoComponent}
+{path :'pipe',component:PipedemoComponent},
+{path:'directive',component:DirectivedemoComponent}
 ];
 
 @NgModule({

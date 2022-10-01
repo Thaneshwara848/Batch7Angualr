@@ -13,6 +13,7 @@ import { DatabinddemoComponent } from './databinddemo/databinddemo.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { SqrPipe } from './sqr.pipe';
 import { CubePipe } from './cube.pipe';
+import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { CubePipe } from './cube.pipe';
     DatabinddemoComponent,
     PipedemoComponent,
     SqrPipe,
-    CubePipe
+    CubePipe,
+    DirectivedemoComponent
   ],
   imports: [
     BrowserModule,

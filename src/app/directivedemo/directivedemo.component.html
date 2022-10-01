@@ -1,0 +1,65 @@
+<!-- <div  style="text-align: center">
+    <h1> Structural Directive </h1>
+
+    <div *ngIf="false">
+        <h1>HIiiiiiiiiiiiii</h1>
+    </div>
+
+    <div  *ngIf="mydiv">
+        <h1>helllloooooooooooo</h1>
+    </div>
+
+    <div  *ngIf="false">
+        <h1>Byeeeeeeeeeeeeee</h1>
+    </div>
+ 
+</div> -->
+
+
+    <!-- Add Fruit :
+    <input type="text" #addfruit>
+    <input type="submit" (click)="addfruits(addfruit.value)">
+    <ul *ngFor="let fruit of fruits;index as i " >
+       <li *ngIf="fruit=='Cherry'">{{i}}---{{fruit}}</li> 
+        <li >{{i}}---{{fruit}}</li>
+    </ul> -->
+
+    <!-- <ul *ngFor="let people of peoples;index as i " >
+        <li >{{i}}---{{people.name}}---{{people.Age}}</li>
+    </ul> -->
+
+
+    <!-- <div [ngSwitch]="opt" style="text-align: center">
+            <p *ngSwitchCase="1"> HI </p>
+            <p *ngSwitchCase="2"> Hello </p>
+            <p *ngSwitchDefault> Bye </p>
+        
+    </div> -->
+    <hr>
+
+
+<div [ngClass]="{bdr:true,backgclr:true}">
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+
+</div>
+<div [ngClass]="{bdr:false,backgclr:true}">
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+
+</div>
+
+<div [ngClass]="{bdr:true,backgclr:false}">
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+    This initially seems to make sense until we try to create our else style element.
+
+</div>
