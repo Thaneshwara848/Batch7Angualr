@@ -16,5 +16,4 @@ export class XComponent implements OnInit {
     //console.log("10 lines of Code ")
     this.dbl.dbcommon();
   }
-  z
 }
