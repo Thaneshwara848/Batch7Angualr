@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { RegisterComponent } from './register/register.component';
+import { ServiceDemoComponent } from './service-demo/service-demo.component';
 
 const routes: Routes = [
 {path :'login',component:LoginComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
 { path : 'home',component :HomeComponent},
 { path :'data',component:DatabinddemoComponent},
 {path :'pipe',component:PipedemoComponent},
-{path:'directive',component:DirectivedemoComponent}
+{path:'directive',component:DirectivedemoComponent},
+{path:'service',component:ServiceDemoComponent}
 ];
 
 @NgModule({

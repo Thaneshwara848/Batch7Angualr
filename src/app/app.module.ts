@@ -14,6 +14,10 @@ import { PipedemoComponent } from './pipedemo/pipedemo.component';
 import { SqrPipe } from './sqr.pipe';
 import { CubePipe } from './cube.pipe';
 import { DirectivedemoComponent } from './directivedemo/directivedemo.component';
+import { XComponent } from './x/x.component';
+import { YComponent } from './y/y.component';
+import { ZComponent } from './z/z.component';
+import { ServiceDemoComponent } from './service-demo/service-demo.component';
 
 
 @NgModule({
@@ -29,7 +33,11 @@ import { DirectivedemoComponent } from './directivedemo/directivedemo.component'
     PipedemoComponent,
     SqrPipe,
     CubePipe,
-    DirectivedemoComponent
+    DirectivedemoComponent,
+    XComponent,
+    YComponent,
+    ZComponent,
+    ServiceDemoComponent
   ],
   imports: [
     BrowserModule,
