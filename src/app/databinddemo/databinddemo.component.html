@@ -1,0 +1,85 @@
+<h1> Data Binding Demo </h1>
+
+<hr>
+<!-- Suresh<br>
+
+{{ name }}
+<br>
+{{company }} SkillUp is the go-to place for ✔️free online courses ...
+{{company }} SkillUp is the go-to place for ✔️free online courses ...
+{{company }}SkillUp is the go-to place for ✔️free online courses ...
+<br>
+<h3>Event Binding </h3>
+<input type="submit" (click)="abc()">
+<br>
+<input type="submit" (dblclick) ="xyz()" >
+ <br>
+
+<input type="button" value="CLICK" [disabled]="MyDec"><br>
+
+<img [src]="myImgpath" width="10%" height="10%" alt="Loding....!">
+ -->
+
+<div style="text-align: center">
+    {{count }}
+    <br>
+    <input type="submit" value="INCREMENT" (click)="incr()" [disabled]="mydec">
+
+    <input type="submit" value="DECREMENT " (click)="decr()">
+
+</div>
+<div style="text-align: center">
+    <br>
+         {{myname}}<br>
+        Name :<input type="text" #username>
+        <input type="submit" value="SEND" (click)="data(username.value)">
+</div>
+
+<div style="text-align: center">
+    <br>
+    Principle : <input type="text" #princ><br>
+    TIME  : <input type="text" #time><br>
+
+    Type of LONE :
+    <select (change)="loan($event)">
+        <option value="car">CAR </option>
+        <option value="home">HOME</option>
+        <option value="personal">PERSNAL</option>
+        <option value="gold">GOLD </option>
+        <option value="edu">EDU </option>
+    </select><br>
+    ROI  : <input type="text" #roi value={{myroi}} disabled><br>
+    TOTAL : <input type="text" value={{sum}}>
+    
+    <br>
+    <input type="submit"  value="CLCULATE"
+    (click)="ptr(princ.value,time.value,roi.value)">
+    
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

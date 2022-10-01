@@ -8,6 +8,12 @@ import { RegisterComponent } from './register/register.component';
 import { AComponent } from './a/a.component';
 import { BComponent } from './b/b.component';
 import { HomeComponent } from './home/home.component';
+import { DDDComponent } from './ddd/ddd.component';
+import { DatabinddemoComponent } from './databinddemo/databinddemo.component';
+import { PipedemoComponent } from './pipedemo/pipedemo.component';
+import { SqrPipe } from './sqr.pipe';
+import { CubePipe } from './cube.pipe';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +22,12 @@ import { HomeComponent } from './home/home.component';
     RegisterComponent,
     AComponent,
     BComponent,
-    HomeComponent
+    HomeComponent,
+    DDDComponent,
+    DatabinddemoComponent,
+    PipedemoComponent,
+    SqrPipe,
+    CubePipe
   ],
   imports: [
     BrowserModule,
