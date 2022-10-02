@@ -18,6 +18,10 @@ import { XComponent } from './x/x.component';
 import { YComponent } from './y/y.component';
 import { ZComponent } from './z/z.component';
 import { ServiceDemoComponent } from './service-demo/service-demo.component';
+import { FormsdemoComponent } from './formsdemo/formsdemo.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttprecordsComponent } from './httprecords/httprecords.component';
+import {  HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -37,11 +41,16 @@ import { ServiceDemoComponent } from './service-demo/service-demo.component';
     XComponent,
     YComponent,
     ZComponent,
-    ServiceDemoComponent
+    ServiceDemoComponent,
+    FormsdemoComponent,
+    HttprecordsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
